@@ -2831,21 +2831,32 @@ header {
     font-size: 1.2rem;
   }
 
+  .team {
+    height: 380vh;
+  }
+
   .team_box {
-    margin: 0rem 0.5rem;
+    margin: 1rem 0.5rem;
     box-sizing: border-box;
   }
 
   .team_box img {
-    width: 11rem;
-    height: 14rem;
+    width: 20rem;
+    height: 21rem;
   }
 
   .team_boxes {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     row-gap: 10px;
-    padding: 3rem 2rem;
+    padding: 3rem 4rem;
+  }
+
+  #team_name {
+    font-size: 1rem;
+  }
+  #team_position {
+    font-size: 0.7rem;
   }
 
   .blog {
